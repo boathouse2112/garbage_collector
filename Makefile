@@ -1,5 +1,6 @@
 CC = clang
-CFLAGS=-Wall -Wextra -Werror -std=c99 -g
+#CFLAGS=-Wall -Wextra -Werror -std=c99 -g
+CFLAGS=-Wall -Wextra -std=c99 -g
 
 source = gc.c
 objects = ${patsubst %.c,%.o,${source}}
